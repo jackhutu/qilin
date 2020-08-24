@@ -1,0 +1,13 @@
+*.min.js
+**/node_modules/**
+
+# types and commitlint
+.commitlintrc.js
+
+# ignore built packages
+packages/**/dist/**
+packages/**/build/**
+
+# fixtures
+**/__testfixtures__/**
+**/__tests__/fixtures/**

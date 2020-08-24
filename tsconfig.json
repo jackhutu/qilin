@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+
+    /* Basic Operations */
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["esnext", "DOM"],
+    "declaration": true,
+    "declarationMap": false,
+
+    "jsx": "react",
+    // "sourceMap": true,
+    "inlineSourceMap": true,
+
+    /* Advanced Options */
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@qilin/utils": ["./packages/qilin-utils"],
+      "qilin": ["./packages/qilin/src"],
+      "@qilin/webpack": ["./packages/qilin-webpack"],
+      "@qilin/cli": ["./packages/qilin-cli"]
+    },
+
+    /* Strict Type-Checking Options */
+    "strict": false /* Enable all strict type-checking options. */,
+    "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
+    "strictNullChecks": false /* Enable strict null checks. */,
+    "strictFunctionTypes": false /* Enable strict checking of function types. */,
+    "strictBindCallApply": false /* Enable strict 'bind', 'call', and 'apply' methods on functions. */,
+    "strictPropertyInitialization": false /* Enable strict checking of property initialization in classes. */,
+    "noImplicitThis": false /* Raise error on 'this' expressions with an implied 'any' type. */,
+    "alwaysStrict": false /* Parse in strict mode and emit "use strict" for each source file. */,
+
+    /* Additional Checks */
+    "noUnusedLocals": false /* Report errors on unused locals. */,
+    "noUnusedParameters": false /* Report errors on unused parameters. */,
+    "noImplicitReturns": false /* Report error when not all code paths in function return a value. */,
+    "noFallthroughCasesInSwitch": false /* Report errors for fallthrough cases in switch statement. */,
+
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "removeComments": false
+  },
+  "include": ["packages/*/src", "packages/create-qilin-app/templates"],
+  "exclude": ["node_modules", "**/__tests__/**/*", "**/lib/**/*", "**/build/**/*", "**/dist/**/*", "**/*.spec*"]
+}

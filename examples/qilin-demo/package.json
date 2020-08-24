@@ -1,0 +1,17 @@
+{
+  "name": "qilin-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.19.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  }
+}

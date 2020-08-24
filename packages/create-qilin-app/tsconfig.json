@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "types": ["node"],
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@qilin/utils": ["../qilin-utils"]
+    },
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "typings/**/*.ts"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

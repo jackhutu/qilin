@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "CommonJS",
+    "paths": {
+      "qilin": ["../../packages/qilin"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
