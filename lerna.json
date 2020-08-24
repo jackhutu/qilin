@@ -10,8 +10,7 @@
       "allowBranch": "master",
       "bump": "patch",
       "message": "chore(release): publish %s",
-      "conventionalCommits": true,
-      "changelogPreset": "angular"
+      "conventionalCommits": true
     }
   },
   "ignoreChanges": ["ignored-file", "**/__tests__/**", "**/*.md"]
