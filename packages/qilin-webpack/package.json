@@ -1,6 +1,6 @@
 {
   "name": "@qilinjs/webpack",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "qilin build",
   "keywords": [
     "qilin",
@@ -46,7 +46,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@babel/register": "^7.10.5",
     "@hot-loader/react-dom": "16.13.0",
-    "@qilinjs/utils": "0.3.0",
+    "@qilinjs/utils": "^0.3.1",
     "antd-dayjs-webpack-plugin": "1.0.1",
     "babel-loader": "8.1.0",
     "babel-plugin-auto-css-modules-flag": "^0.0.1",

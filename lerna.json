@@ -9,7 +9,6 @@
     "publish": {
       "allowBranch": "master",
       "bump": "patch",
-      "message": "chore(release): publish %s",
       "conventionalCommits": true
     }
   },
