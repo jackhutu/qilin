@@ -1,5 +1,5 @@
 {
-  "name": "@qilin/create-qilin-app",
+  "name": "@qilinjs/create-qilin-app",
   "version": "0.2.0",
   "description": "create-qilin-app",
   "keywords": [
@@ -37,7 +37,7 @@
     "url": "https://github.com/jackhutu/qilin/issues"
   },
   "dependencies": {
-    "@qilin/utils": "^0.2.0",
+    "@qilinjs/utils": "^0.2.0",
     "commander": "^4.0.1",
     "glob": "^7.1.6",
     "mkdirp": "^1.0.4",

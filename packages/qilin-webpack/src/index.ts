@@ -7,7 +7,7 @@ import buildServer from './build'
 import getUserConfig from './getConfig/userConfig'
 import { getDefaultConfig, ENTRY_FILES } from './getConfig/defaultConfig'
 import { UserConfig, QilinWebpackConfig } from './types'
-import { winPath } from '@qilin/utils'
+import { winPath } from '@qilinjs/utils'
 interface QilinOpts {
   cwd?: string
   pkg?: Object

@@ -2,7 +2,7 @@ import { QilinWebpackConfig, UserConfig } from '../types'
 import { join, isAbsolute } from 'path'
 import { existsSync } from 'fs'
 import { HTML_FILES } from './defaultConfig'
-import { winPath } from '@qilin/utils'
+import { winPath } from '@qilinjs/utils'
 
 function getHtmlTplFile(cwd: string, config: UserConfig): string | null {
   const { contentBase } = config

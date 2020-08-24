@@ -9,7 +9,7 @@ function _interopDefault(ex) {
 var webpack = _interopDefault(require('webpack'))
 var FileSizeReporter = require('react-dev-utils/FileSizeReporter')
 var rimraf = _interopDefault(require('rimraf'))
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {

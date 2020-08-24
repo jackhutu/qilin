@@ -11,7 +11,7 @@
     "typeRoots": ["./typings", "./node_modules/@types"],
     "baseUrl": ".",
     "paths": {
-      "@qilin/utils": ["../qilin-utils"]
+      "@qilinjs/utils": ["../qilin-utils"]
     },
     "esModuleInterop": true
   },

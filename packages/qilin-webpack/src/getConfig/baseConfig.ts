@@ -5,7 +5,7 @@ import { QilinWebpackConfig } from '../types'
 import getBabelOpts from './babelOpts'
 import { join, relative, dirname, resolve } from 'path'
 import getHtmlConfig from './htmlConfig'
-import { chalk } from '@qilin/utils'
+import { chalk } from '@qilinjs/utils'
 
 export default function handelBaseConfig(webpackConfig: Config, opts: QilinWebpackConfig): Config {
   const { env, cwd, config, absOutputPath } = opts

@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true })
 var path = require('path')
 var fs = require('fs')
 var defaultConfig = require('./defaultConfig')
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 
 function getHtmlTplFile(cwd, config) {
   const contentBase = config.contentBase

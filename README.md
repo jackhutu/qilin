@@ -19,8 +19,8 @@
 $ mkdir myapp && cd myapp
 
 # 用工具创建项目
-$ yarn create @qilin/qilin-app
-# 或 npx @qilin/create-qilin-app
+$ yarn create @qilinjs/qilin-app
+# 或 npx @qilinjs/create-qilin-app
 
 # 安装依赖
 $ yarn

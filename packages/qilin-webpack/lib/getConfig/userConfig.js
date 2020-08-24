@@ -5,7 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true })
 var defaultConfig = require('./defaultConfig')
 var fs = require('fs')
 var path = require('path')
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 
 function getConfigFile(cwd) {
   const configFile = defaultConfig.CONFIG_FILES.find(f => fs.existsSync(path.join(cwd, f)))

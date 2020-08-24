@@ -22,10 +22,10 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "paths": {
-      "@qilin/utils": ["./packages/qilin-utils"],
+      "@qilinjs/utils": ["./packages/qilin-utils"],
       "qilin": ["./packages/qilin/src"],
-      "@qilin/webpack": ["./packages/qilin-webpack"],
-      "@qilin/cli": ["./packages/qilin-cli"]
+      "@qilinjs/webpack": ["./packages/qilin-webpack"],
+      "@qilinjs/cli": ["./packages/qilin-cli"]
     },
 
     /* Strict Type-Checking Options */

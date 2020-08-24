@@ -10,7 +10,7 @@ var fs = require('fs')
 var webpack = _interopDefault(require('webpack'))
 var WebpackDevServer = _interopDefault(require('webpack-dev-server'))
 var getPort = _interopDefault(require('./getPort'))
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 var openBrowser = _interopDefault(require('react-dev-utils/openBrowser'))
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {

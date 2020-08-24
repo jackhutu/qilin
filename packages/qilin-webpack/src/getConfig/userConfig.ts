@@ -1,7 +1,7 @@
 import { CONFIG_FILES } from './defaultConfig'
 import { existsSync } from 'fs'
 import { join } from 'path'
-import { winPath } from '@qilin/utils'
+import { winPath } from '@qilinjs/utils'
 
 function getConfigFile(cwd: string): string | null {
   const configFile = CONFIG_FILES.find(f => existsSync(join(cwd, f)))

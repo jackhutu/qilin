@@ -1,7 +1,7 @@
 import webpack from 'webpack'
 import { printFileSizesAfterBuild } from 'react-dev-utils/FileSizeReporter'
 import rimraf from 'rimraf'
-import { chalk } from '@qilin/utils'
+import { chalk } from '@qilinjs/utils'
 
 process.env.NODE_ENV = 'production'
 const WARN_AFTER_BUNDLE_GZIP_SIZE = 512 * 1024

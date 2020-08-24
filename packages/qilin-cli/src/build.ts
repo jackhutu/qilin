@@ -1,5 +1,5 @@
 import yParser from 'yargs-parser'
-import QilinWebpack from '@qilin/webpack'
+import QilinWebpack from '@qilinjs/webpack'
 const args = yParser(process.argv.slice(2))
 
 const { getCwd, getPkg } = require('./utils')

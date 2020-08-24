@@ -1,5 +1,5 @@
 {
-  "name": "@qilin/cli",
+  "name": "@qilinjs/cli",
   "version": "0.2.0",
   "description": "qilin cli",
   "keywords": [
@@ -36,7 +36,7 @@
   "dependencies": {
     "@babel/core": "^7.11.1",
     "@babel/register": "^7.10.5",
-    "@qilin/webpack": "^0.2.0",
+    "@qilinjs/webpack": "^0.2.0",
     "chalk": "^4.1.0",
     "commander": "^6.0.0",
     "cross-spawn": "^7.0.3",

@@ -14,7 +14,7 @@ var devServer = _interopDefault(require('./dev'))
 var buildServer = _interopDefault(require('./build'))
 var getUserConfig = _interopDefault(require('./getConfig/userConfig'))
 var defaultConfig = require('./getConfig/defaultConfig')
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {

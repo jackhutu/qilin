@@ -2,7 +2,7 @@ import { copyFileSync, readFileSync, statSync, writeFileSync } from 'fs'
 import Mustache from 'mustache'
 import mkdirp from 'mkdirp'
 import glob from 'glob'
-import { chalk } from '@qilin/utils'
+import { chalk } from '@qilinjs/utils'
 import { dirname, relative, join } from 'path'
 
 export default class createQilinApp {

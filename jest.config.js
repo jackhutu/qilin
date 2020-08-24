@@ -4,6 +4,6 @@
 module.exports = {
   collectCoverage: true,
   moduleNameMapper: {
-    '^@qilin/utils$': '<rootDir>/packages/qilin-utils/src/index.ts'
+    '^@qilinjs/utils$': '<rootDir>/packages/qilin-utils/src/index.ts'
   }
 }

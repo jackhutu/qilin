@@ -11,7 +11,7 @@ var fs = require('fs')
 var getBabelOpts = _interopDefault(require('./babelOpts'))
 var path = require('path')
 var getHtmlConfig = _interopDefault(require('./htmlConfig'))
-var utils = require('@qilin/utils')
+var utils = require('@qilinjs/utils')
 
 function _defineProperty(obj, key, value) {
   if (key in obj) {

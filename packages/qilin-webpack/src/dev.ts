@@ -3,7 +3,7 @@ import webpack from 'webpack'
 import WebpackDevServer from 'webpack-dev-server'
 import getPort from './getPort'
 const deepmerge = require('deepmerge')
-import { clearConsole, chalk, address } from '@qilin/utils'
+import { clearConsole, chalk, address } from '@qilinjs/utils'
 import openBrowser from 'react-dev-utils/openBrowser'
 
 const HOST = process.env.HOST || '0.0.0.0'

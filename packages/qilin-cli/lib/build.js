@@ -5,7 +5,7 @@ function _interopDefault(ex) {
 }
 
 var yParser = _interopDefault(require('yargs-parser'))
-var QilinWebpack = _interopDefault(require('@qilin/webpack'))
+var QilinWebpack = _interopDefault(require('@qilinjs/webpack'))
 
 const args = yParser(process.argv.slice(2))
 
