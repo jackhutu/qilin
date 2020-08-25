@@ -16,8 +16,8 @@
   },
   "files": [
     "dist",
-    "index.js",
-    "package.json"
+    "bin",
+    "typings"
   ],
   "scripts": {
     "build": "rollup -c rollup.config.js --environment NODE_ENV:production"

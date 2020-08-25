@@ -8,18 +8,16 @@
   ],
   "author": "Jack Hu <hello@jackhu.top>",
   "homepage": "https://github.com/jackhutu/qilin#readme",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "qilin-webpack": "bin/qilin-webpack.js"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "bin",
+    "lib",
+    "dev.js"
   ],
   "publishConfig": {
     "access": "public"
