@@ -33,12 +33,12 @@
     "url": "https://github.com/jackhutu/qilin/issues"
   },
   "peerDependencies": {
-    "@qilinjs/cli": "^0.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "redux": "^4.0.5"
   },
   "dependencies": {
+    "@qilinjs/cli": "^0.2.0",
     "@qilinjs/utils": "^0.3.4",
     "@types/react-redux": "^7.1.9",
     "immer": "^7.0.7",

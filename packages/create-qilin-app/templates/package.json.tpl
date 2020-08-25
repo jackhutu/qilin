@@ -21,6 +21,8 @@
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "redux": "^4.0.5",
+    "react-redux": "^7.1.0",
     "qilin": "^{{{ version }}}"
   }
 }
