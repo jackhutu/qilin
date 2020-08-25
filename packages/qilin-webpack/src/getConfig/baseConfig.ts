@@ -102,36 +102,6 @@ export default function handelBaseConfig(webpackConfig: Config, opts: QilinWebpa
       name: 'images/[name].[hash:8].[ext]',
       esModule: false
     })
-    .end()
-    .use('image-webpack-loader')
-    .loader(require.resolve('image-webpack-loader'))
-    .options({
-      mozjpeg: {
-        quality: 65
-      },
-      pngquant: {
-        quality: '65-90',
-        speed: 4
-      },
-      svgo: {
-        plugins: [
-          {
-            removeViewBox: false
-          },
-          {
-            removeEmptyAttrs: false
-          }
-        ]
-      },
-      gifsicle: {
-        optimizationLevel: 7,
-        interlaced: false
-      },
-      optipng: {
-        optimizationLevel: 7,
-        interlaced: false
-      }
-    })
 
   webpackConfig.module
     .rule('svg')
