@@ -3,7 +3,8 @@
   "version": "0.3.8",
   "description": "qilin",
   "keywords": [
-    "qilin"
+    "qilin",
+    "@qilin"
   ],
   "author": "Jack Hu <hello@jackhu.top>",
   "homepage": "https://github.com/jackhutu/qilin/tree/master/packages/qilin#readme",

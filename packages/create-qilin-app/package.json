@@ -3,7 +3,8 @@
   "version": "0.3.8",
   "description": "create-qilin-app",
   "keywords": [
-    "cli"
+    "qilin",
+    "create-qilin-app"
   ],
   "author": "Jack Hu <hello@jackhu.top>",
   "homepage": "https://github.com/jackhutu/qilin/tree/master/packages/create-qilin-app#readme",
