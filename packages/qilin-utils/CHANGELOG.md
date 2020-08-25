@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/jackhutu/qilin/compare/@qilinjs/utils@0.3.3...@qilinjs/utils@0.3.4) (2020-08-25)
+
+### Bug Fixes
+
+- packages ([bade22c](https://github.com/jackhutu/qilin/commit/bade22c6789c5bb5b9dab08ff582a53d656c6ea5))
+
 ## 0.3.3 (2020-08-24)
 
 ### Bug Fixes
