@@ -39,7 +39,7 @@
     "bootstrap": "run-s clean bootstrap:lerna",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git commit -m 'docs: 更新changelog' && git push",
     "release": "run-s build publish:lerna",
-    "publish:lerna": "lerna publish bump=patch",
+    "publish:lerna": "lerna publish patch",
     "publish:alpha": "lerna publish --preid=alpha",
     "publish:next": "lerna publish --preid=beta --dist-tag=next",
     "build": "lerna run build",
