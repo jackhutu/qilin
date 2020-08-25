@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/jackhutu/qilin/compare/@qilinjs/create-qilin-app@0.3.4...@qilinjs/create-qilin-app@0.3.6) (2020-08-25)
+
+### Bug Fixes
+
+- commitlint ([b534f16](https://github.com/jackhutu/qilin/commit/b534f167a755d9ac8c92204a005df1fde613f50d))
+- **create-qilin-app:** package template ([e608e7b](https://github.com/jackhutu/qilin/commit/e608e7b7aee9a267288803e395be929d1d688f98))
+
 ## [0.3.5](https://github.com/jackhutu/qilin/compare/@qilinjs/create-qilin-app@0.3.4...@qilinjs/create-qilin-app@0.3.5) (2020-08-25)
 
 ### Bug Fixes
