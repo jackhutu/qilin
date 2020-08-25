@@ -8,7 +8,6 @@
     },
     "publish": {
       "allowBranch": "master",
-      "bump": "minor",
       "message": "chore(release): publish %s",
       "conventionalCommits": true,
       "changelogPreset": "angular"
