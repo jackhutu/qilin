@@ -1,6 +1,6 @@
 {
   "name": "@qilinjs/create-qilin-app",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "create-qilin-app",
   "keywords": [
     "cli"
