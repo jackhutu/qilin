@@ -13,9 +13,9 @@
   },
   "main": "dist/index.js",
   "files": [
+    "dist",
     "bin",
-    "__tests__",
-    "dist"
+    "templates"
   ],
   "engines": {
     "node": ">=8"
