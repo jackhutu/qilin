@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.12](https://github.com/jackhutu/qilin/compare/v0.3.11...v0.3.12) (2020-08-25)
+
+### Features
+
+- **qilin-webpack:** remove images-loader ([5c162df](https://github.com/jackhutu/qilin/commit/5c162dfdfa074c3592c3d402f3dfdb3d4267f061))
+
 ## [0.3.4](https://github.com/jackhutu/qilin/compare/@qilinjs/webpack@0.3.3...@qilinjs/webpack@0.3.4) (2020-08-25)
 
 ### Bug Fixes
