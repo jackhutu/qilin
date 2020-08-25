@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.13](https://github.com/jackhutu/qilin/compare/v0.3.12...v0.3.13) (2020-08-25)
+
+### Bug Fixes
+
+- config ([6e712b2](https://github.com/jackhutu/qilin/commit/6e712b2b635efabe4b47737a29914dd8ddff52bd))
+- modify lerna config ([b9c14d2](https://github.com/jackhutu/qilin/commit/b9c14d2466798aff1cbe21df3ef565c0440cae58))
+- modify lerna config ([40720a2](https://github.com/jackhutu/qilin/commit/40720a2fbe27ee2915eb616f9ad5d35dda1c1908))
+
+### Features
+
+- 0.3.12 ([8030ec9](https://github.com/jackhutu/qilin/commit/8030ec931cae9cf56375e552d3967b49dfc66101))
+
 ## [0.3.12](https://github.com/jackhutu/qilin/compare/v0.3.11...v0.3.12) (2020-08-25)
 
 ### Features
