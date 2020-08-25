@@ -49,5 +49,6 @@
   "devDependencies": {
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
-  }
+  },
+  "gitHead": "918eaff7be15ed32b68ea0880a778587084e0e00"
 }
