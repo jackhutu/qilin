@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.10](https://github.com/jackhutu/qilin/compare/v0.3.9...v0.3.10) (2020-08-25)
+
+### Bug Fixes
+
+- publish ([3889a65](https://github.com/jackhutu/qilin/commit/3889a65cafc6af6a4ecbb0b4e037cb8234b30f9e))
+
 ## [0.3.9](https://github.com/jackhutu/qilin/compare/v0.3.8...v0.3.9) (2020-08-25)
 
 ### Bug Fixes
