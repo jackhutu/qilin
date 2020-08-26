@@ -8,7 +8,7 @@
     },
     "publish": {
       "allowBranch": "master",
-      "message": "chore(release): publish %s",
+      "message": "chore: publish %s",
       "conventionalCommits": true,
       "changelogPreset": "angular"
     }
