@@ -13,5 +13,5 @@
       "changelogPreset": "angular"
     }
   },
-  "ignoreChanges": ["ignored-file", "**/__tests__/**", "**/*.md"]
+  "ignoreChanges": ["**/*.e2e.ts", "**/__tests__/**", "**/*.md"]
 }

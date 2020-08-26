@@ -14,7 +14,7 @@ module.exports = {
     lineNumbers: true
   },
   serviceWorker: true,
-  base: '/qilin/',
+  base: '/',
   themeConfig: {
     logo: '/qilin.jpg',
     lastUpdated: 'lastUpdate',
