@@ -6,7 +6,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/qilin.jpg'
+        href: '/qilin.png'
       }
     ]
   ],
@@ -16,7 +16,7 @@ module.exports = {
   serviceWorker: true,
   base: '/',
   themeConfig: {
-    logo: '/qilin.jpg',
+    logo: '/qilin.png',
     lastUpdated: 'lastUpdate',
     nav: [
       {
