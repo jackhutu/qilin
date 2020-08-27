@@ -4,6 +4,8 @@ export default function getBabelOpts(
 ): {
   presets: (
     | string
+    | Function
+    | [string, any, string?]
     | (
         | string
         | {
@@ -15,6 +17,8 @@ export default function getBabelOpts(
   )[]
   plugins: (
     | string
+    | Function
+    | [string, any, string?]
     | (
         | string
         | {
@@ -38,7 +42,7 @@ export default function getBabelOpts(
         | {
             libraryName: string
             libraryDirectory: string
-            style: string
+            style: boolean
           }
       )[]
   )[]

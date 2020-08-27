@@ -113,7 +113,9 @@ class QilinWebpack {
   init() {
     const userConfig = getUserConfig(this.cwd)
     const defaultConfig$1 = defaultConfig.getDefaultConfig()
-    this.config = _objectSpread2(_objectSpread2({}, defaultConfig$1), userConfig)
+    this.config = _objectSpread2(_objectSpread2({}, defaultConfig$1), userConfig) // contentBase 默认, 无需配置
+
+    this.config['contentBase'] = [path.join(this.cwd, './src'), this.cwd]
   }
 
   getEntry() {

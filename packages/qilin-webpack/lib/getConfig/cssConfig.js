@@ -97,10 +97,10 @@ function createCSSRule({ webpackConfig, config, env, lang, test, loader, options
                 browsers: config.browsers || [],
                 stage: 3
               }),
-              ...(config.extraPostCSSPlugins || [])
+              ...(config.postcssPlugins || [])
             ]
           },
-          config.postcssLoader || {}
+          config.postcssLoaderOptions || {}
         )
       )
 

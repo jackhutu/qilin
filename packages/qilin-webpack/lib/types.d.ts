@@ -1,5 +1,6 @@
 import webpack from 'webpack'
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
+declare type IBabelOptions = Function | string | [string, any, string?]
 export interface UserConfig {
   devtool?: webpack.Options.Devtool
   outputPath?: string
@@ -14,10 +15,10 @@ export interface UserConfig {
   terserOptions?: object
   inlineLimit?: number
   externals?: any
-  postcssLoader?: object
+  postcssLoaderOptions?: object
   theme?: object
   browsers?: string[]
-  extraPostCSSPlugins?: any[]
+  postcssPlugins?: any[]
   proxy?: any
   contentBase?: string[] | string | boolean
   devServer?: object
@@ -25,6 +26,8 @@ export interface UserConfig {
   analyze?: BundleAnalyzerPlugin.Options
   useAntd?: boolean
   splitChunks?: webpack.Options.SplitChunksOptions
+  babelPlugins?: IBabelOptions[]
+  babelPresets?: IBabelOptions[]
 }
 export interface QilinWebpackConfig {
   config: UserConfig
@@ -35,3 +38,4 @@ export interface QilinWebpackConfig {
   }
   absOutputPath?: string
 }
+export {}

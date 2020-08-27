@@ -30,6 +30,8 @@ export default class QilinWebpack {
     const userConfig = getUserConfig(this.cwd)
     const defaultConfig = getDefaultConfig()
     this.config = { ...defaultConfig, ...userConfig }
+    // contentBase 默认, 无需配置
+    this.config['contentBase'] = [join(this.cwd, './src'), this.cwd]
   }
 
   getEntry() {

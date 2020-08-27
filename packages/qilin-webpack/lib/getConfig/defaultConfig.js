@@ -4,16 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true })
 
 const browserslist = ['last 2 version', '> 1%', 'iOS >= 8', 'Android >= 4']
 const CONFIG_FILES = ['.qilinrc.ts', '.qilinrc.js', 'config/config.ts', 'config/config.js']
-const ENTRY_FILES = [
-  './src/index.tsx',
-  './src/index.ts',
-  './src/index.jsx',
-  './src/index.js',
-  'index.tsx',
-  'index.ts',
-  'index.jsx',
-  'index.js'
-]
+const ENTRY_FILES = ['./src/index.tsx', './src/index.ts', './src/index.jsx', './src/index.js']
 const HTML_FILES = ['./src/index.html', './src/index.ejs', 'index.html', 'index.ejs']
 const getDefaultConfig = () => {
   return {

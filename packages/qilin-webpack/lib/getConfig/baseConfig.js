@@ -96,8 +96,11 @@ function handelBaseConfig(webpackConfig, opts) {
   const htmlConfig = getHtmlConfig(opts)
   console.log(`use html template:   ${utils.chalk.cyan(htmlConfig['template'].replace(cwd, ''))}`) // plugins
 
-  webpackConfig.plugin('html-webpack-plugin').use(require.resolve('html-webpack-plugin'), [htmlConfig]) // webpackConfig.plugin('antd-dayjs').use(require.resolve('antd-dayjs-webpack-plugin'))
-  // define plugin
+  webpackConfig.plugin('html-webpack-plugin').use(require.resolve('html-webpack-plugin'), [htmlConfig])
+
+  if (config.useAntd) {
+    webpackConfig.plugin('antd-dayjs').use(require.resolve('antd-dayjs-webpack-plugin'))
+  } // define plugin
 
   let define = config.define || {}
   webpackConfig.plugin('define').use(webpack.DefinePlugin, [_objectSpread2({}, define)]) // progress

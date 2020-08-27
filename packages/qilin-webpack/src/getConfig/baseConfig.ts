@@ -38,7 +38,9 @@ export default function handelBaseConfig(webpackConfig: Config, opts: QilinWebpa
   // plugins
   webpackConfig.plugin('html-webpack-plugin').use(require.resolve('html-webpack-plugin'), [htmlConfig])
 
-  // webpackConfig.plugin('antd-dayjs').use(require.resolve('antd-dayjs-webpack-plugin'))
+  if (config.useAntd) {
+    webpackConfig.plugin('antd-dayjs').use(require.resolve('antd-dayjs-webpack-plugin'))
+  }
 
   // define plugin
   let define = config.define || {}

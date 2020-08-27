@@ -13,7 +13,8 @@ export default function getBabelOpts(opts: QilinWebpackConfig) {
         }
       ],
       '@babel/preset-react',
-      '@babel/preset-typescript'
+      '@babel/preset-typescript',
+      ...(config.babelPresets || [])
     ],
     plugins: [
       ['@babel/plugin-proposal-decorators', { legacy: true }],
@@ -33,12 +34,13 @@ export default function getBabelOpts(opts: QilinWebpackConfig) {
               {
                 libraryName: 'antd',
                 libraryDirectory: 'es',
-                style: 'css' // `style: true` 会加载 less 文件
+                style: true // `style: true` 会加载 less 文件, 'css' 只加载css
               }
             ]
           ]
         : []),
-      '@babel/plugin-syntax-dynamic-import'
+      '@babel/plugin-syntax-dynamic-import',
+      ...(config.babelPlugins || [])
     ],
     comments: false
   }
