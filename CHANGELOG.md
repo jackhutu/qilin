@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.14](https://github.com/jackhutu/qilin/compare/v0.3.13...v0.3.14) (2020-08-27)
+
+### Bug Fixes
+
+- lerna config ([650ed65](https://github.com/jackhutu/qilin/commit/650ed65659c194ef9ac4b2199291441e8ba10795))
+- 修改 vuepress config ([04e87ff](https://github.com/jackhutu/qilin/commit/04e87ffb4bb2fd9633ba43b3b1486b2201e85e09))
+
+### Features
+
+- 修改配置项 ([6006d50](https://github.com/jackhutu/qilin/commit/6006d500d1196d91f76e73a79dae728b5ea2c11c))
+
 ## [0.3.13](https://github.com/jackhutu/qilin/compare/v0.3.12...v0.3.13) (2020-08-25)
 
 ### Bug Fixes
