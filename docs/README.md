@@ -4,7 +4,7 @@ heroImage: /qilin.png
 heroText: 轻量级前端应用框架
 tagline: 统一规范, 聚焦业务, 快速开发
 actionText: 马上进入 →
-actionLink: /pages/API/index.md
+actionLink: /pages/DOCS/index.md
 features:
   - title: 统一规范
     details: 统一规范,方便管理

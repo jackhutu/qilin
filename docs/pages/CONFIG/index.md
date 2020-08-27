@@ -1,4 +1,4 @@
-## 使用
+## 配置
 
 ```
 qilin say world

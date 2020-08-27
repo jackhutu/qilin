@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Qilin',
-  description: 'Qilin',
+  description: 'qilin - 轻量级前端应用框架',
   head: [
     [
       'link',
@@ -20,22 +20,16 @@ module.exports = {
     lastUpdated: 'lastUpdate',
     nav: [
       {
-        text: '指南',
-        link: '/pages/GUIDE/index.md'
+        text: '文档',
+        link: '/pages/DOCS/index.md'
       },
       {
-        text: '了解更多',
-        ariaLabel: '了解更多',
-        items: [
-          {
-            text: 'Qilin API',
-            link: '/pages/API/index.md'
-          },
-          {
-            text: 'Qilin CLI',
-            link: '/pages/CLI/index.md'
-          }
-        ]
+        text: '配置',
+        link: '/pages/CONFIG/index.md'
+      },
+      {
+        text: 'API',
+        link: '/pages/API/index.md'
       },
       {
         text: 'Github',
