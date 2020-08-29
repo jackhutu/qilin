@@ -48,8 +48,8 @@ function _asyncToGenerator(fn) {
 }
 
 process.env.NODE_ENV = 'production'
-const WARN_AFTER_BUNDLE_GZIP_SIZE = 512 * 1024
-const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024
+const WARN_BUNDLE_GZIP_SIZE = 512 * 1024
+const WARN_CHUNK_GZIP_SIZE = 1024 * 1024
 
 function clearOutput(outputPath, cwd) {
   try {
@@ -69,8 +69,8 @@ function buildAfter(outputPath, stats) {
       sizes: {}
     },
     outputPath,
-    WARN_AFTER_BUNDLE_GZIP_SIZE,
-    WARN_AFTER_CHUNK_GZIP_SIZE
+    WARN_BUNDLE_GZIP_SIZE,
+    WARN_CHUNK_GZIP_SIZE
   )
   console.log()
 }

@@ -16,7 +16,7 @@ export interface UserConfig {
   inlineLimit?: number
   externals?: any
   postcssLoaderOptions?: object
-  theme?: object
+  lessVars?: object
   browsers?: string[]
   postcssPlugins?: any[]
   proxy?: any

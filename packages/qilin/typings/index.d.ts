@@ -1,4 +1,5 @@
 import * as saga from 'redux-saga'
+import produce from 'immer'
 import { QilinConfig, QilinModule, QilinMutations, QilinSagas, SagaMiddleware } from './types'
 import { Middleware, bindActionCreators, Store } from 'redux'
 declare class Qilin {
@@ -25,3 +26,4 @@ declare class Qilin {
 export default Qilin
 export { bindActionCreators }
 export { saga }
+export { produce }

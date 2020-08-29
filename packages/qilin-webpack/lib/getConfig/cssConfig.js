@@ -115,8 +115,8 @@ function createCSSRule({ webpackConfig, config, env, lang, test, loader, options
 
 function handelCssConfig(webpackConfig, opts) {
   const config = opts.config,
-    _opts$config$theme = opts.config.theme,
-    theme = _opts$config$theme === void 0 ? {} : _opts$config$theme,
+    _opts$config$lessVars = opts.config.lessVars,
+    lessVars = _opts$config$lessVars === void 0 ? {} : _opts$config$lessVars,
     env = opts.env,
     cwd = opts.cwd
   createCSSRule({
@@ -135,7 +135,7 @@ function handelCssConfig(webpackConfig, opts) {
     test: /\.less$/,
     loader: 'less-loader',
     options: {
-      modifyVars: theme,
+      modifyVars: lessVars,
       javascriptEnabled: true
     }
   })
