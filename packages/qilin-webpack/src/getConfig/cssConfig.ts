@@ -72,7 +72,7 @@ function createCSSRule({ webpackConfig, config, env, lang, test, loader, options
 export default function handelCssConfig(webpackConfig: Config, opts: QilinWebpackConfig): Config {
   const {
     config,
-    config: { theme = {} },
+    config: { lessVars = {} },
     env,
     cwd
   } = opts
@@ -93,7 +93,7 @@ export default function handelCssConfig(webpackConfig: Config, opts: QilinWebpac
     test: /\.less$/,
     loader: 'less-loader',
     options: {
-      modifyVars: theme,
+      modifyVars: lessVars,
       javascriptEnabled: true
     }
   })

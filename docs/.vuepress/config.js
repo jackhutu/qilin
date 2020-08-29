@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Qilin',
+  title: 'QilinJS',
   description: 'qilin - 轻量级前端应用框架',
   head: [
     [
@@ -21,15 +21,15 @@ module.exports = {
     nav: [
       {
         text: '文档',
-        link: '/pages/DOCS/index.md'
+        link: '/pages/guide/index.md'
       },
       {
         text: '配置',
-        link: '/pages/CONFIG/index.md'
+        link: '/pages/config/init.md'
       },
       {
         text: 'API',
-        link: '/pages/API/index.md'
+        link: '/pages/api/index.md'
       },
       {
         text: 'Github',
@@ -37,11 +37,40 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/pages/API/': [
+      '/pages/guide/': [
+        {
+          title: '介绍',
+          collapsable: false,
+          children: ['', 'getting-started']
+        },
+        {
+          title: '数据流',
+          collapsable: false,
+          children: ['redux', 'diff']
+        },
+        {
+          title: 'MOCK',
+          collapsable: false,
+          children: ['mock']
+        },
+        {
+          title: 'git flow',
+          collapsable: false,
+          children: ['git-flow']
+        }
+      ],
+      '/pages/config/': [
+        {
+          title: '配置',
+          collapsable: false,
+          children: ['init', 'build']
+        }
+      ],
+      '/pages/api/': [
         {
           title: 'API',
           collapsable: false,
-          children: [['say.md', 'say']]
+          children: ['']
         }
       ]
     }

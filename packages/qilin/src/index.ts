@@ -159,3 +159,4 @@ class Qilin {
 export default Qilin
 export { bindActionCreators }
 export { saga }
+export { produce }

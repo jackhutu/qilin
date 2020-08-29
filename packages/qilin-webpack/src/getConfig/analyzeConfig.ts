@@ -5,7 +5,7 @@ export default function handelAnalyzeConfig(webpackConfig: Config, opts: QilinWe
   const { config } = opts
   webpackConfig
     .plugin('bundle-analyzer')
-    .use(require('umi-webpack-bundle-analyzer').BundleAnalyzerPlugin, [config?.analyze || {}])
+    .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [config?.analyze || {}])
 
   return webpackConfig
 }

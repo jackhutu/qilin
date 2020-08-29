@@ -12,8 +12,6 @@
 
 ## 快速上手
 
-手动创建文件，
-
 ```bash
 # 创建目录
 $ mkdir myapp && cd myapp
