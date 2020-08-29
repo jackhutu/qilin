@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.15](https://github.com/jackhutu/qilin/compare/v0.3.14...v0.3.15) (2020-08-29)
+
+### Features
+
+- 完善文档 ([04381aa](https://github.com/jackhutu/qilin/commit/04381aa1f36235257d10eddbca2a17488c4dcfb2))
+
 ## [0.3.14](https://github.com/jackhutu/qilin/compare/v0.3.13...v0.3.14) (2020-08-27)
 
 **Note:** Version bump only for package qilin
