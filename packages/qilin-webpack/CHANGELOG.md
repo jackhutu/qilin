@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.18](https://github.com/jackhutu/qilin/compare/v0.3.17...v0.3.18) (2020-08-31)
+
+**Note:** Version bump only for package @qilinjs/webpack
+
 ## [0.3.15](https://github.com/jackhutu/qilin/compare/v0.3.14...v0.3.15) (2020-08-29)
 
 ### Features
