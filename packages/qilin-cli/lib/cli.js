@@ -15,9 +15,11 @@ const major = parseInt(versions[0])
 const minor = parseInt(versions[1])
 const platform = os.platform()
 
-if (major * 10 + minor * 1 < 80) {
-  console.log(chalk.red(`Node version (${major}.${minor}) is not compatibile, ${chalk.cyan('must >= 8.0')}.`))
-  console.log(chalk.red(`你的 Node 版本是 ${chalk.yellow(`${major}.${minor}`)}，请升级到${chalk.cyan(' 8.0 或以上')}.`))
+if (major * 10 + minor * 1 < 130) {
+  console.log(chalk.red(`Node version (${major}.${minor}) is not compatibile, ${chalk.cyan('must >= 10.13.0')}.`))
+  console.log(
+    chalk.red(`你的 Node 版本是 ${chalk.yellow(`${major}.${minor}`)}，请升级到${chalk.cyan(' 10.13.0 或以上')}.`)
+  )
   console.log()
 
   if (platform === 'darwin') {
