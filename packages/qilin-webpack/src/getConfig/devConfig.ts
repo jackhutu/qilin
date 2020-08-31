@@ -21,6 +21,5 @@ export default function handelDevConfig(webpackConfig: Config, opts: QilinWebpac
   webpackConfig.plugin('hmr').use(webpack.HotModuleReplacementPlugin)
 
   // devServer
-
   return webpackConfig
 }
