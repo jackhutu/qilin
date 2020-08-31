@@ -4,6 +4,7 @@ import mkdirp from 'mkdirp'
 import glob from 'glob'
 import { chalk } from '@qilinjs/utils'
 import { dirname, relative, join } from 'path'
+const { prompt } = require('enquirer')
 
 export default class createQilinApp {
   args: any[]
@@ -26,8 +27,8 @@ export default class createQilinApp {
     writeFileSync(opts.target, content, 'utf-8')
   }
 
-  copyDirectory() {
-    const tplPath = join(__dirname, '../templates')
+  copyDirectory(type: string = 'blank') {
+    const tplPath = join(__dirname, `../templates/${type}`)
     const target = this.cwd
     const files = glob.sync('**/*', {
       cwd: tplPath,
@@ -50,9 +51,27 @@ export default class createQilinApp {
       }
     })
   }
+
+  async execEnquirer() {
+    const questions = [
+      {
+        type: 'select',
+        name: 'appType',
+        message: '选择项目类型?',
+        initial: 1,
+        choices: [
+          { name: 'blank', message: 'blank (空白项目)' },
+          { name: 'basic', message: 'basic (包含路由, modules demo, 推荐)' }
+        ]
+      }
+    ]
+    return prompt(questions)
+  }
+
   async run() {
+    const { appType } = await this.execEnquirer()
     // 写入模板
-    this.copyDirectory()
-    // 安装
+    this.copyDirectory(appType)
+    // install todo
   }
 }
