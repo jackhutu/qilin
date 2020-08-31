@@ -21,9 +21,9 @@
     "react-dom": "^16.12.0",
     "redux": "^4.0.5",
     "react-redux": "^7.1.0",
-    "qilin": "^0.3.13"
+    "qilin": "^{{{ version }}}"
   },
-  "devDependencies": {
+    "devDependencies": {
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1"
   }

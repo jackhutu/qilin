@@ -160,3 +160,4 @@ export default Qilin
 export { bindActionCreators }
 export { saga }
 export { produce }
+export { QilinConfig, QilinModule, QilinMutations, QilinSagas, SagaMiddleware }

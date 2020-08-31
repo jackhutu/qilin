@@ -1,5 +1,6 @@
 import { Middleware, Reducer, Action } from 'redux'
 import { Saga, SagaMiddleware } from 'redux-saga'
+import { AnyAction } from 'redux'
 
 export interface IAction extends Action {
   payload: any
@@ -21,8 +22,20 @@ export interface QilinConfig {
   initialReducer?: QilinMutations
 }
 
+export interface SagasCommandMap {
+  put: <A extends AnyAction>(action: A) => any
+  call: Function
+  select: Function
+  take: Function
+  cancel: Function
+  actions: {
+    [key: string]: Function
+  }
+  [key: string]: any
+}
+
 export interface QilinSagas {
-  [key: string]: Saga
+  [key: string]: (sagas: SagasCommandMap, action: AnyAction) => void
 }
 export interface QilinModule {
   name: string

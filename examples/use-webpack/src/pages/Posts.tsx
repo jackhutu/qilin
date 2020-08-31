@@ -11,6 +11,13 @@ interface TestsProps {
 }
 
 class TestsComponent extends React.Component<TestsProps> {
+  componentDidMount() {
+    const {
+      tests: { fetch }
+    } = this.props
+    fetch({ page: 1 })
+  }
+
   render() {
     const {
       list,
@@ -19,12 +26,19 @@ class TestsComponent extends React.Component<TestsProps> {
 
     return (
       <div>
-        <Link to={'/posthooks'}>跳转到posthooks</Link>
-        <button onClick={() => fetch({ page: 1 })}>第一页(Component)</button>
-        <button onClick={() => fetch({ page: 2 })}>第二页(Component)</button>
+        <nav>
+          <Link to={'/posts'}>class 组件</Link>
+
+          <Link to={'/posthooks'}>hooks 组件</Link>
+        </nav>
+
         {list.map(item => (
           <div key={item.id}>{item.title}</div>
         ))}
+        <div>
+          <button onClick={() => fetch({ page: 1 })}>第一页</button>
+          <button onClick={() => fetch({ page: 2 })}>第二页</button>
+        </div>
       </div>
     )
   }
