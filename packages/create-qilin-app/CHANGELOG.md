@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.16](https://github.com/jackhutu/qilin/compare/v0.3.15...v0.3.16) (2020-08-31)
+
+### Features
+
+- **create-qilin-app:** 添加 basic type ([cf59951](https://github.com/jackhutu/qilin/commit/cf599517dd547120c2bbff3df4992e6cd899ed14))
+
 ## [0.3.13](https://github.com/jackhutu/qilin/compare/v0.3.12...v0.3.13) (2020-08-25)
 
 ### Features

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.16](https://github.com/jackhutu/qilin/compare/v0.3.15...v0.3.16) (2020-08-31)
+
+### Bug Fixes
+
+- **qilin:** 修复 modules types ([f8d7c13](https://github.com/jackhutu/qilin/commit/f8d7c13b79eb0898242651dfcd7114006f19ed4e))
+- modify lerna config ([8250449](https://github.com/jackhutu/qilin/commit/8250449a2b5d136b96bf40e3a4a8f93463e4f370))
+- publish ([59d75f6](https://github.com/jackhutu/qilin/commit/59d75f6f735af75cafe3e048e394ff72738fcbe4))
+
+### Features
+
+- **create-qilin-app:** 添加 basic type ([cf59951](https://github.com/jackhutu/qilin/commit/cf599517dd547120c2bbff3df4992e6cd899ed14))
+- add example basic ([7a3dd27](https://github.com/jackhutu/qilin/commit/7a3dd273549fe47df3270bd80d7cce363ccc2a20))
+
 ## [0.3.15](https://github.com/jackhutu/qilin/compare/v0.3.14...v0.3.15) (2020-08-29)
 
 ### Features
