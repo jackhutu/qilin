@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.17](https://github.com/jackhutu/qilin/compare/v0.3.16...v0.3.17) (2020-08-31)
+
+### Features
+
+- node version limit 10.13.0 ([8dc710d](https://github.com/jackhutu/qilin/commit/8dc710d4f49cf3bfd263b1b17488a4b94fe9f06d))
+
 ## [0.3.15](https://github.com/jackhutu/qilin/compare/v0.3.14...v0.3.15) (2020-08-29)
 
 **Note:** Version bump only for package @qilinjs/cli
