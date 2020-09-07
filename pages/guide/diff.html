@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>与 dva 的异同 | QilinJS</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/qilin.png">
+    <meta name="description" content="qilin - 轻量级前端应用框架">
+    <link rel="preload" href="/assets/css/0.styles.d2600313.css" as="style"><link rel="preload" href="/assets/js/app.24712013.js" as="script"><link rel="preload" href="/assets/js/2.8a8574f0.js" as="script"><link rel="preload" href="/assets/js/10.9aeb82ad.js" as="script"><link rel="prefetch" href="/assets/js/11.b3da88f7.js"><link rel="prefetch" href="/assets/js/12.286259c1.js"><link rel="prefetch" href="/assets/js/13.189040c9.js"><link rel="prefetch" href="/assets/js/14.2c2b9ccd.js"><link rel="prefetch" href="/assets/js/15.0d98c6c2.js"><link rel="prefetch" href="/assets/js/3.72d847c0.js"><link rel="prefetch" href="/assets/js/4.ad14c756.js"><link rel="prefetch" href="/assets/js/5.df20e72c.js"><link rel="prefetch" href="/assets/js/6.43368b57.js"><link rel="prefetch" href="/assets/js/7.757068d3.js"><link rel="prefetch" href="/assets/js/8.c18f4a78.js"><link rel="prefetch" href="/assets/js/9.14346623.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d2600313.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/qilin.png" alt="QilinJS" class="logo"> <span class="site-name can-hide">QilinJS</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pages/guide/index.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="/pages/config/init.html" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/pages/api/index.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="https://github.com/jackhutu/qilin.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pages/guide/index.html" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="/pages/config/init.html" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/pages/api/index.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="https://github.com/jackhutu/qilin.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>介绍</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/guide/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/pages/guide/getting-started.html" class="sidebar-link">快速开始</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>数据流</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/guide/redux.html" class="sidebar-link">数据流</a></li><li><a href="/pages/guide/diff.html" aria-current="page" class="active sidebar-link">与 dva 的异同</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>MOCK</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/guide/mock.html" class="sidebar-link">MOCK</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>git flow</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/guide/git-flow.html" class="sidebar-link">git flow</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="与-dva-的异同"><a href="#与-dva-的异同" class="header-anchor">#</a> 与 dva 的异同</h1> <h3 id="相同之处"><a href="#相同之处" class="header-anchor">#</a> 相同之处</h3> <p>都省去了 action 函数, 而每个 saga 和 reducer 函数对应的 key 实际是长这样 <code>{namespce}/key</code>,</p> <h3 id="dva-的处理方式"><a href="#dva-的处理方式" class="header-anchor">#</a> dva 的处理方式</h3> <p>dva 为了准确触发相应函数, effects 中的 put 方法是经过包装后的, 而非 redux-saga 原生提供的, 内部实际要将 type 转成<code>{namespace}/fetch</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>yield put({ type: 'fetch', payload: { page } });
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>而在组件中的 dispatch, 只能使用用写全 type 方式:</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>dispatch({
+  type: 'users/patch',
+  payload: { id, values },
+});
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="qilin-的处理方式"><a href="#qilin-的处理方式" class="header-anchor">#</a> qilin 的处理方式</h3> <p>qilin 采用了推导 action 的方式, 虽然不写 action 函数, 但是内部推导全部 actions, 并提供 mapDispatchToProps, getActions 两种方式, 方便触发 dispatch, saga 内部也返回了全部 action.</p> <p>相比之下实现更为简洁, 代码量更少.</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">lastUpdate:</span> <span class="time">8/29/2020, 11:38:06 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pages/guide/redux.html" class="prev">
+        数据流
+      </a></span> <span class="next"><a href="/pages/guide/mock.html">
+        MOCK
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.24712013.js" defer></script><script src="/assets/js/2.8a8574f0.js" defer></script><script src="/assets/js/10.9aeb82ad.js" defer></script>
+  </body>
+</html>
